@@ -26,7 +26,7 @@ public class AddController {
 		//System.out.println("Hiiii");
 		
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("Display.jsp");
+		mv.setViewName("Display");
 		mv.addObject("result",k);
 		return mv;
 	}
